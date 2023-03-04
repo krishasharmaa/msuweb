@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ig.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="message">
+
+        <button onclick="markAllSeen()" style="background-color: rgb(255, 127, 127); border-radius: 8px; padding: 10px 20px;">Mark All Seen</button>
+
+        <button onclick="markAllUnseen()" style="background-color: rgb(255, 127, 127); border-radius: 8px; padding: 10px 20px;">Mark All Unseen</button>
+
+        <div class="profile-title">
+            <div class="profile-left">
+
+                
+
+                <!-- <div style="background-color: aqua; padding-top: 1px; padding-left: 40px; padding-right: 40px;"></div> -->
+                <h2 style="margin-top: 20px;margin-bottom: 40px;">PROFILES</h2>
+                <table>
+                    <td style="padding: 20px 20px;">
+                        <img src="img.webp" alt="" style="border-radius: 50%; height: 70PX; width: 70px;">
+                    </td>
+                    <td style="padding: 20px;">
+                    
+                        <span>kathan</span>
+                    </td>
+                    <td style="padding: 20px;">
+                        <p>single tap for seen and double tap for unseen</p>
+                    </td>
+                    <td>
+                        <button onclick="seen1()" ondblclick="seen1un()" id="seen1" style="background-color: rgb(255, 127, 127); border-radius: 8px; padding: 10px 20px;">UN-SEEN</button>
+                    </td>
+                </table>
+
+                <table>
+                    <td style="padding: 20px 20px;">
+                        <img src="witch.jpg" alt="" style="border-radius: 50%; height: 70PX; width: 70px;">
+                    </td>
+                    <td style="padding: 20px;">
+                        <span>krisha</span>
+                    </td>
+                    <td style="padding: 20px;">
+                    
+                        <p>single tap for seen and double tap for unseen</p>
+                    </td>
+                    <td>
+                        <button onclick="seen2()" ondblclick="seen2un()" id="seen2" style="background-color: rgb(255, 127, 127); border-radius: 8px;padding:10px 20px;">UN-SEEN</button>
+                    </td>
+                </table>
+
+                <table>
+                    <td style="padding: 20px 20px;">
+                    
+                        <img src="thor.jpg" alt="" style="border-radius: 50%; height: 70PX; width: 70px;">
+                    </td>
+                    <td style="padding: 20px;">
+                        <span>vedant</span>
+                    </td>
+                    <td style="padding: 20px;">
+                    
+                        <p>single tap for seen and double tap for unseen</p>
+                    </td>
+                    <td>
+                        <button onclick="seen3()" ondblclick="seen3un()" id="seen3" style="background-color: #ff7f7f; border-radius: 8px; padding: 10px 20px;">UN-SEEN</button>
+                    </td>
+                </table>
+                <table>
+                    <td style="padding: 20px 20px;">
+                        <img src="natasha.webp" alt="" style="border-radius: 50%; height: 70PX; width: 70px;">
+                    </td>
+                    <td style="padding: 20px;">
+                        <span>khushali</span>
+                    </td>
+                    <td style="padding: 20px;">
+                    
+                        <p>single tap for seen and double tap for unseen</p>
+                    </td>
+                    <td>
+                        <button onclick="seen4()" ondblclick="seen4un()" id="seen4" style="background-color: rgb(255, 127, 127); border-radius: 8px;padding:10px 20px;">UN-SEEN</button>
+                    </td>
+                </table>
+            </div>
+
+        </div>
+        <div class="all-read">
+            <h2 style="margin-top: 20px;margin-bottom: 40px;">...</h2>
+        </div>
+         
+
+    </div>
+</body>
+</html>
